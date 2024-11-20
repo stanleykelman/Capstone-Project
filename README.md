@@ -34,6 +34,10 @@ The dataset includes:
 - 4,738 records and 6 features after cleaning and preprocessing.
 - Source: Internal company performance data.
 
+## Datasets
+- **Netradyne Vehicle Metrics**
+- **Weekly Performance Scorecard Data**
+- **Employee Personal Profile Data**
 ---
 
 ## Models Implemented
@@ -102,3 +106,5 @@ Three survival models were implemented and evaluated:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/stanleykelman/Survival-Analysis.git
+
+Thank you for checking out my project! I look forward to your feedback and contributions.
