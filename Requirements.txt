@@ -1,0 +1,8 @@
+Python 3.x
+Jupyter Notebook
+Pandas
+Scikit-learn
+Lifelines
+Matplotlib
+Seaborn
+Numpy
