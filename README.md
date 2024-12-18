@@ -83,6 +83,14 @@ Three survival models were implemented and evaluated:
 ---
 
 ## Key Findings
+The Cox Proportional Hazards Model was the best-performing model with a Concordance Index (C-Index) of 0.7200, demonstrating strong predictive accuracy and clear interpretability. The Kaplan-Meier Estimator achieved moderate performance with a C-Index of 0.6900, serving as a solid baseline model. In contrast, the Random Survival Forest (RSF) performed poorly with a C-Index of 0.5049, indicating limited predictive power and possible overfitting.
+
+From the Cox model, delivered packages emerged as the strongest predictor of employee retention. Higher delivery volumes were associated with a significantly lower risk of turnover. Shipments per on-zone hour had a smaller, moderate impact, while gender-related features showed mixed results. In the Cox model, males demonstrated a lower risk of turnover; however, in the RSF model, gender features carried no importance. Results for employees who chose not to self-identify were unreliable due to sparse data.
+The Kaplan-Meier Survival Curves revealed that turnover risk is highest within the first 1.5 years of employment. Significant attrition occurs during this period, emphasizing the need for targeted early retention strategies. Survival patterns from the Random Survival Forest varied across samples, with some groups experiencing immediate attrition and others showing complete retention throughout the observed tenure.
+
+Overall, delivered packages is the most influential factor for predicting retention, while turnover tends to peak in the early months of employment. The Cox Proportional Hazards Model offers the most reliable insights into the drivers of turnover, making it the preferred tool for informing retention strategies.
+
+## In General
 1. **Tenure** and **delivered packages** are significant predictors of termination.
 2. Kaplan-Meier is valuable for visual exploration but lacks predictive functionality.
 3. Cox Proportional Hazards is the most reliable model for understanding termination risks.
